@@ -35,6 +35,8 @@
           devShells.default = pkgs.mkShell {
             nativeBuildInputs = [
               pkgs.nil
+              pkgs.clang_19
+              pkgs.gnumake
             ];
           };
         };
